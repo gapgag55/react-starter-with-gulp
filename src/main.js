@@ -31,7 +31,7 @@ class TestRouter extends Component {
     return (
       <Router history={browserHistory}>
         <Route path="/" component={App}/>
-          <Route path="form/:user" component={Forms} />
+        <Route path="form/:user" component={Forms} />
       </Router>
     )
   }
